@@ -19,9 +19,9 @@ public class MovieCatalogView {
             System.out.println("Please select an option: \n" +
                     "\t0. Exit.\n" +
                     "\t1. Start movie catalog.\n" +
-                    "\t2. Add movie.\n" + //Not working
+                    "\t2. Add movie.\n" +
                     "\t3. Show movies.\n" +
-                    "\t4. Search movie.\n"); // Not working
+                    "\t4. Search movie.\n");
             option = Integer.parseInt(sc.nextLine());
 
             switch (option){
